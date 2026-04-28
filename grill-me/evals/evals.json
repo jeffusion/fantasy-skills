@@ -1,0 +1,23 @@
+{
+  "skill_name": "grill-me",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "grill me on my plan to build a real-time collaborative document editor",
+      "expected_output": "The model should start asking probing questions one at a time about the plan, covering architecture decisions (conflict resolution strategy, OT vs CRDT), user model, data persistence, edge cases, and performance. Each question should include a recommended answer. The model should not dump all questions at once.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I want to stress-test my design for a payment processing system. Can you interview me?",
+      "expected_output": "The model should recognize the trigger and begin a structured interview covering payment flow, idempotency, failure handling, reconciliation, compliance, and security. Questions should be asked one at a time with recommendations provided.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Here's my plan for migrating our monolith to microservices. I need someone to challenge my assumptions.",
+      "expected_output": "The model should probe the migration strategy, service boundaries, data consistency approach, deployment strategy, observability, team structure alignment, and rollback plan. Each question should resolve a specific branch of the decision tree before moving to the next.",
+      "files": []
+    }
+  ]
+}
