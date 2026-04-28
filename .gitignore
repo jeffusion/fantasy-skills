@@ -1,0 +1,22 @@
+# macOS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Skill packaging / evaluation outputs
+*.skill
+*-workspace/
+iteration-*/
+benchmark.json
+benchmark.md
+feedback.json
+
+# OpenCode runtime
+.sisyphus/
