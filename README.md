@@ -22,6 +22,10 @@
 ├── README.md
 ├── CONTRIBUTING.md
 ├── .gitignore
+├── grill-me/
+│   ├── SKILL.md
+│   └── evals/
+│       └── evals.json
 ├── product-design-plan/
 │   ├── SKILL.md
 │   └── evals/
