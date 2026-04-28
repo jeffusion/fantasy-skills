@@ -1,8 +1,8 @@
-# Jeffusion Skills
+# Fantasy Skills
 
 一个用于沉淀、维护和分发自定义 Claude / OpenCode Skills 的多 skill 仓库。
 
-本仓库参考 `ComposioHQ/awesome-claude-skills` 的组织方式：**仓库根目录下每个 skill 一个独立目录**，根 `README.md` 作为总索引，`CONTRIBUTING.md` 说明新增与维护规范。
+**仓库根目录下每个 skill 一个独立目录**，根 `README.md` 作为总索引，`CONTRIBUTING.md` 说明新增与维护规范。
 
 ## Skills
 
@@ -10,6 +10,10 @@
 
 - [product-design-plan](./product-design-plan) - 生成完整、可协作落地的中文产品设计方案 / PRD，覆盖背景目标、用户故事、流程、功能规格、UI/UX、验收标准、风险与迭代计划。
 - [system-design-plan](./system-design-plan) - 生成完整、可评审落地的中文系统设计方案 / 技术方案，覆盖业务背景、概要设计、详细设计、数据设计、接口契约、非功能设计、高可用、分布式专项、实施运维、风险评审与版本管理。
+
+### 协作与思维工具
+
+- [grill-me](./grill-me) - 针对计划或设计方案对用户进行 relentless 采访，逐个分支遍历决策树，直到达成共识。适用于用户想压力测试方案、被追问设计细节、或提到 "grill me"。
 
 ## 仓库结构
 
