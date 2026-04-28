@@ -9,7 +9,8 @@
 ### 产品与方案设计
 
 - [product-design-plan](./product-design-plan) - 生成完整、可协作落地的中文产品设计方案 / PRD，覆盖背景目标、用户故事、流程、功能规格、UI/UX、验收标准、风险与迭代计划。
-- [system-design-plan](./system-design-plan) - 生成完整、可评审落地的中文系统设计方案 / 技术方案，覆盖业务背景、概要设计、详细设计、数据设计、接口契约、非功能设计、高可用、分布式专项、实施运维、风险评审与版本管理。
+- [client-tech-proposal](./client-tech-proposal) - 生成面向客户/甲方/立项评审的中文技术设计方案，以设计思路和关键机制为核心，用业务语言讲清"为什么这样设计"和"怎么工作"，不含 DDL/API/错误码等研发实现细节。
+- [system-design-plan](./system-design-plan) - 生成面向研发内部的中文系统设计方案 / 详细设计，覆盖业务背景、概要设计、详细设计、数据设计（DDL）、接口契约、非功能设计、高可用、分布式专项、实施运维、风险评审与版本管理。
 
 ### 协作与思维工具
 
@@ -22,6 +23,12 @@
 ├── README.md
 ├── CONTRIBUTING.md
 ├── .gitignore
+├── client-tech-proposal/
+│   ├── SKILL.md
+│   ├── evals/
+│   │   └── evals.json
+│   └── references/
+│       └── writing-guide.md
 ├── grill-me/
 │   ├── SKILL.md
 │   └── evals/
