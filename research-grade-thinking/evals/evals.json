@@ -1,0 +1,23 @@
+{
+  "skill_name": "research-grade-thinking",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我现在做一个开源 Agent 项目，应该用 LangGraph，还是自研 Agent Runtime？请帮我判断。",
+      "expected_output": "The model should not directly choose one option. It should reframe the surface framework choice into deeper priorities such as development speed, runtime control, architecture demonstration value, ecosystem compatibility, and maintainability. It should state assumptions, compare multiple hypotheses, build evidence chains with confidence levels, identify counterexamples and boundaries, and end with a concrete minimum validation action such as implementing a small runtime demo and comparing it with LangGraph on code volume, debugging complexity, and observability.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "这个 SaaS 产品方向靠谱吗？我们想做一个面向中小企业的 AI 客服质检平台。",
+      "expected_output": "The model should treat the question as a business and product judgment problem. It should clarify the surface and deep problem, list assumptions and constraints, generate hypotheses about customer pain, willingness to pay, data integration cost, and differentiation, identify evidence needed and possible counterexamples, define applicable and non-applicable scenarios, and provide concrete next actions such as interviewing target users, validating current QA workflows, and running a small paid pilot.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想半年内转后端架构方向，应该怎么规划学习路线？不要给我空泛建议。",
+      "expected_output": "The model should analyze this as a learning and career planning problem. It should infer or state assumptions, separate goals from constraints, propose hypotheses about current skill gaps, build a staged knowledge map and validation mechanism, include risks and failure conditions, and end with specific actions, milestones, practice projects, feedback loops, and success criteria.",
+      "files": []
+    }
+  ]
+}
