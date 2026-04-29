@@ -15,6 +15,7 @@
 ### 协作与思维工具
 
 - [grill-me](./grill-me) - 针对计划或设计方案对用户进行 relentless 采访，逐个分支遍历决策树，直到达成共识。适用于用户想压力测试方案、被追问设计细节、或提到 "grill me"。
+- [research-grade-thinking](./research-grade-thinking) - 将模糊问题、复杂决策、技术选型、产品/系统方案、学习规划或职业判断转化为问题重构、约束识别、假设生成、证据链、反例边界、阶段结论与最小验证动作。
 
 ## 仓库结构
 
@@ -34,6 +35,10 @@
 │   └── evals/
 │       └── evals.json
 ├── product-design-plan/
+│   ├── SKILL.md
+│   └── evals/
+│       └── evals.json
+├── research-grade-thinking/
 │   ├── SKILL.md
 │   └── evals/
 │       └── evals.json
